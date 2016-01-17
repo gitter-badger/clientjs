@@ -11,7 +11,7 @@
     "grunt": "~0.3.17"
   },
   "scripts": {
-    "test": "ls && istanbul cover jasmine-node test/GetSoftwareVersion.js"
+    "test": "istanbul cover jasmine-node test"
   },
   "bugs": {
     "url": "https://github.com/jackspirou/clientjs/issues"
@@ -26,5 +26,8 @@
     "pure",
     "javascript"
   ],
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "jasmine-node": "^1.14.5"
+  }
 }
