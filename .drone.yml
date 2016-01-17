@@ -1,6 +1,7 @@
 build:
   image: node:latest
   commands:
+    - npm install -g jasmine-node
     - npm install
     - npm test
 
