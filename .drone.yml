@@ -1,0 +1,10 @@
+build:
+  image: node:latest
+  commands:
+    - npm install
+    - npm test
+
+publish:
+  coverage:
+    token: $$GITHUB_TOKEN
+    include: lcov.info

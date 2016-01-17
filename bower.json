@@ -3,7 +3,8 @@
   "version": "0.1.9",
   "main": ["dist/client.min.js"],
   "ignore": [
-    ".travis.yml",
+    ".drone.yml",
+    ".drone.sec",
     ".gitignore",
     "build",
     "grunt.js",
