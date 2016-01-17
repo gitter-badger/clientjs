@@ -11,7 +11,7 @@
     "grunt": "~0.3.17"
   },
   "scripts": {
-    "test": "grunt travis --verbose --force"
+    "test": "istanbul cover --include-all-sources jasmine-node test"
   },
   "bugs": {
     "url": "https://github.com/jackspirou/clientjs/issues"
