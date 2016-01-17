@@ -11,13 +11,13 @@
     "grunt": "~0.3.17"
   },
   "scripts": {
-    "test": "istanbul cover -x jasmine-node test/getSoftwareVersion.js"
+    "test": "istanbul cover jasmine-node spec"
   },
   "bugs": {
     "url": "https://github.com/jackspirou/clientjs/issues"
   },
   "homepage": "https://github.com/jackspirou/clientjs#readme",
-  "main": "grunt.js",
+  "main": "src/client.js",
   "keywords": [
     "browser",
     "fingerprint",
