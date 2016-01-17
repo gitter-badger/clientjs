@@ -11,7 +11,7 @@
     "grunt": "~0.3.17"
   },
   "scripts": {
-    "test": "istanbul cover -x jasmine-node test"
+    "test": "istanbul cover -x jasmine-node test/getSoftwareVersion.js"
   },
   "bugs": {
     "url": "https://github.com/jackspirou/clientjs/issues"
